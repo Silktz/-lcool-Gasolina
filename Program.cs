@@ -11,7 +11,7 @@ Gasolina = decimal.Parse(Console.ReadLine()!);
 
 Calculo();
 
-bool valores = Gasolina < Etanol; 
+bool valores = Gasolina > Etanol; 
 if (valores)
 {
 Console.WriteLine("Recomendação: Abasteça com ETANOL");
